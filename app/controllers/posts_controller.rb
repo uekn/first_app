@@ -9,4 +9,6 @@ class PostsController < ApplicationController
     def create
         Post.create(content: params[:content])
     end
+
+    #For commit test
 end
